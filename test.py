@@ -9,3 +9,4 @@ for i in range(0, 9):
         A[8 - i] = t
         s = s + t
 print(s)
+print(A)
