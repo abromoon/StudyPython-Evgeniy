@@ -10,3 +10,4 @@ for i in range(0, 9):
         s = s + t
 print(s)
 print(A)
+Кто тут насрал?
