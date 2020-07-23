@@ -7,10 +7,10 @@
 
 t = ''
 n = ''
-with open(r'dataset_3363_2 (5).txt', 'r') as file:
+with open(r'texts/dataset_3363_2 (5).txt', 'r') as file:
     line = file.readline().strip()
 
-with open('answer.txt', 'w') as file:
+with open('texts/answer.txt', 'w') as file:
     print(line)
 
     for ch in line:

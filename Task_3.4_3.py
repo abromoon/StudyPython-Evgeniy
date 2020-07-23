@@ -10,7 +10,7 @@
 
 words = []
 d = {}
-with open('dataset_3363_3 (2).txt', 'r') as file:
+with open('texts/dataset_3363_3 (2).txt', 'r') as file:
     lines = file.readlines()
 
 for i in lines:

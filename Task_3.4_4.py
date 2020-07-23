@@ -20,8 +20,8 @@
 m = 0
 f = 0
 r = 0
-with open('answer_4.txt', 'w') as answ:
-    with open('dataset_3363_4 (1).txt', 'r') as file:
+with open('texts/answer_4.txt', 'w') as answ:
+    with open('texts/dataset_3363_4 (1).txt', 'r') as file:
         lines = file.readlines()
         k = len(lines)
         for line in lines:
